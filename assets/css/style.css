@@ -1,0 +1,116 @@
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+body{
+    
+    padding: 1%;
+    
+}
+
+/* ALL CONTENT WRAPPER  */
+.wrapper {
+    margin: 2%;
+    padding: 1%;
+    
+}
+
+
+
+/* Game Name "Crystals Collection" */
+.box1 {
+    background-color: blue;
+    margin: 2%;
+    padding: 2%;
+    color: white;
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+/* end game name*/
+
+
+/* Instructions box begins */
+.box2 {
+    background-color: aquamarine;
+    margin: 2%;
+    padding: 1%;
+    width: 400px;
+    color: darkgreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold; 
+}
+
+li{
+    margin: 2%;
+}
+/* end of instructions box */
+
+
+/*CONTAINER Random number and Total wins losses begins */
+.box3 {
+    margin: 2%;
+    padding: 0;
+    width: 300px;
+}
+
+    /* Random Number Generated box begins */
+    .innerDiv1 {
+        background-color: cyan;
+        width: 100px;
+        padding: 1%;
+        float: left;
+        height: 60px;
+        font-size: 25px;
+        color: darkblue;
+    }
+    /* random number generated box ends */
+
+    /* Total Wins/Losses box begins */
+    .innerDiv2 {
+        background-color: cadetblue;
+        width: 100px;
+        padding: 1%;
+        float: left;
+        margin-left: 5%;
+        height: 60px;
+
+    }
+    /* total wins/losses box ends */
+
+/*END CONTAINER random number and total wins/losses */
+
+
+
+.box4 {
+    /* background-color: yellow; */
+    margin: 2%;
+    padding: 1%;
+}
+
+.box5 {
+    background-color: mediumvioletred;
+    margin: 2%;
+    padding: 1%;
+    width: 200px;
+}
+
+.box6 {
+    background-color: mediumvioletred;
+    margin: 2%;
+    padding: 1%;
+    width: 200px;
+    height: 60px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
