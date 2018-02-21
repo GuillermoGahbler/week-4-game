@@ -90,8 +90,12 @@ li{
 
 .box4 {
     /* background-color: yellow; */
-    margin: 2%;
+    /* margin: 2%; */
     padding: 1%;
+}
+
+img{
+    margin: 1%;
 }
 
 .box5 {
