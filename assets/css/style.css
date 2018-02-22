@@ -19,9 +19,8 @@ body{
 }
 
 
-
 /* Game Name "Crystals Collection" */
-.box1 {
+.headerBox {
     background-color: blue;
     margin: 2%;
     padding: 2%;
@@ -36,7 +35,7 @@ body{
 
 
 /* Instructions box begins */
-.box2 {
+.instructionBox {
     background-color: aquamarine;
     margin: 2%;
     padding: 1%;
@@ -54,7 +53,7 @@ li{
 
 
 /*CONTAINER Random number and Total wins losses begins */
-.box3 {
+.mainContent {
     margin: 2%;
     padding: 0;
     width: 300px;
@@ -84,19 +83,26 @@ li{
     }
     /* total wins/losses box ends */
 
-/*END CONTAINER random number and total wins/losses */
+    img{
+        margin: 1%;
+    }
+    
+    .crystalContainer {
+        padding: 1%;
+     }
+
+     #crystal1,#crystal2,#crystal3, #crystal4 {
+         float: left;
+         margin: 1%;
+
+     }
+    
+
+    /*END CONTAINER random number and total wins/losses */
 
 
 
-.box4 {
-    /* background-color: yellow; */
-    /* margin: 2%; */
-    padding: 1%;
-}
 
-img{
-    margin: 1%;
-}
 
 .box5 {
     background-color: mediumvioletred;
