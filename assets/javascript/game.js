@@ -14,9 +14,9 @@
 
 
 // var randomNum;
-var wins;
-var losses;
-
+var wins=0;
+var losses=0;
+var totalScore=0;
 
 function randomize(upper,lower) {
  var randomNumber = Math.floor(Math.random()* (upper -lower+1)) + lower;
@@ -37,6 +37,47 @@ $("#greenCrystal").val(greenCrystal);
 $("#yellowCrystal").val(yellowCrystal);
 
 $("#counter").text(counter);
+
+$("#purpleCrystal").on( "click", function(){
+    var purpleCrystalValue = $(this).val();
+    totalScore = totalScore + parseInt(purpleCrystalValue);
+    $("#totalScore").text(totalScore);
+})
+
+$("#blueCrystal").on("click", function(){
+    var blueCrystalValue = $(this).val();
+    totalScore = totalScore + parseInt(blueCrystalValue);
+    $("#totalScore").text(totalScore);
+})
+
+$("#greenCrystal").on("click", function(){
+    var greenCrystalValue = $(this).val();
+    totalScore = totalScore + parseInt(greenCrystalValue);
+    $("#totalScore").text(totalScore); 
+})
+
+$("#yellowCrystal").on("click", function(){
+    var yellowCrystalValue = $(this).val();
+    totalScore = totalScore + parseInt(yellowCrystalValue);
+    $("#totalScore").text(totalScore);
+    if (totalScore === counter) {
+        wins = wins + 1;
+        console.log(wins + " you win");
+        
+    } else if (totalScore > counter) {
+        losses = losses + 1;
+        console.log(losses + " you lose");
+    
+           
+    }
+
+})
+
+// this ensures that the total score is logged on the html, you add it to the crystals on click so that it records.
+$("#totalScore").text(totalScore);
+
+
+
 
 
 
